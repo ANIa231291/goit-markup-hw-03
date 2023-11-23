@@ -136,7 +136,7 @@ padding: 0 15px;
     display: flex;
     column-gap: 40px;
     gap: 40px;
- 
+    gap: 24px;
     
 }
 
@@ -292,10 +292,11 @@ padding: 0 15px;
 
 
 .menu-wrap{
-   
+    column-gap: 24px;
     align-items:flex-start;
+    gap: 24px;
     flex-wrap: wrap;
-    gap:24;
+    row-gap: 48px;
 
 }
 
@@ -480,9 +481,7 @@ margin-bottom: 8px;
     border-top: none; 
     
 }
-.container{
-    border-top: none;
-}
+.container{ border-top: none;}
 /*.paragraph{} */
 
 /*======================== SECTION 4 ====================================*/
