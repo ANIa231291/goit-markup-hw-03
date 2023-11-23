@@ -292,7 +292,7 @@ padding: 0 15px;
 
 
 .menu-wrap{
-    flex-wrap: nowrap;
+   
     column-gap: 24px;
     align-items:flex-start;
     gap: 24px;
@@ -304,12 +304,10 @@ padding: 0 15px;
     line-height: 1.2;
 }
 .menu-item-next{
- 
-    width: 264px;
+   
     flex-direction: column;
     width: calc((100% - 72px) / 4);
-   
-
+    margin-bottom: 8px;
 }
 .three-title{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -459,6 +457,8 @@ margin-bottom: 8px;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
 }
+
+
 .foto-google{
     flex-shrink: 0;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
@@ -475,7 +475,6 @@ margin-bottom: 8px;
 .menu-wrap{
     flex-wrap: wrap;
     row-gap: 48px;
-
 }
 
 .name-portfolio-foto{
