@@ -23,7 +23,7 @@ ul,ol{
 img{
     display: block;
 }
-.visualy-hidden{         /**---- h2 OUT BENEFITS: NONE----*/
+.visually-hidden{         /**---- h2 OUT BENEFITS: NONE----*/
     position:absolute;
     width:1px ;
     height:1px ;
@@ -36,7 +36,7 @@ img{
     overflow:hidden;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +60,7 @@ img{
 
 /*================= HEDER STYLES ==============================*/
 
-.conteiner-heder{
+.container-heder{
 display:flex;
 justify-content: space-between;
 }
@@ -69,7 +69,7 @@ justify-content: space-between;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner-heder-main{}
+.container-heder-main{}
 
 
 /*navigation + header*/
@@ -178,7 +178,7 @@ justify-content: space-between;
 /*========================== ADRES ===============================*/
 
 /*========================== SECTION 1 ============================*/
-.conteiner-first{
+.container-first{
     height: 600px;
     flex-shrink: 0;
 
@@ -194,7 +194,7 @@ justify-content: space-between;
     padding: 188px 0;
 }
 
-/*.conteiner-effective{}*/
+/*.container-effective{}*/
 
 .title-efectiwe{
     font-size: 56px;
@@ -222,11 +222,12 @@ justify-content: space-between;
     padding: 16px 32px;
     align-items: flex-start;
     gap: 10px;
-
-  
     min-width: 169px;
     height: 56px;
     border: none;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button{
@@ -238,6 +239,7 @@ justify-content: space-between;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
+    
 }
 .button-main:hover{
     background-color: #404BBF;
@@ -260,10 +262,10 @@ justify-content: space-between;
     padding: 120px 0 120px;
 }
 
-.content{
+.containt{
     width: 1158px;
 padding-left: 15px;
-padding-right: 15px;
+padding-right: 15px;/*333333333333333333333333333333*/
 padding-top: 120px;
 padding-bottom: 120px;
 margin-left: auto;
@@ -275,6 +277,7 @@ margin-right: auto;
     flex-wrap: nowrap;
     column-gap: 24px;
     align-items:flex-start;
+    gap: 24px;
 
 }
 
@@ -320,6 +323,7 @@ margin-bottom: 8px;
 .section-three-main{
      flex-shrink: 0;
      background: var(--CLOUD, #F4F4FD);
+     padding: 120px 0;
  
 }
 .title-two{
@@ -397,9 +401,10 @@ margin-bottom: 8px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.conteiner-three{
+.container-three{
     padding-bottom: 120px;
 }
+.container{}
 
 /*======================== SECTION 3 ===================================*/
 
@@ -455,7 +460,7 @@ margin-bottom: 8px;
     padding-top:32px ;
     padding-bottom: 32px;
 }
-.conteiner-four{
+.container-four{
     padding-bottom: 120px;
     border: 1px solid #e7e9fc; 
 }
@@ -524,7 +529,7 @@ height: 21px;
 }
 
 
-.conteiner-endee{
+.container-endee{
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
