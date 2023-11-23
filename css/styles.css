@@ -67,6 +67,8 @@ display:flex;
 justify-content: space-between;
 margin-left: auto;
 margin-right: auto;
+width: 1158px; 
+padding: 0 15px;
 }
 .header-main{
    
@@ -116,6 +118,7 @@ margin-right: auto;
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
+    gap: 40px;
 }
 .logo{
     color: var(--IRIS, #4D5AE5);
@@ -174,6 +177,7 @@ margin-right: auto;
     column-gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    gap: 40px;
 
 }
 
@@ -283,6 +287,7 @@ margin-right: auto;
     letter-spacing: 1.12px;
     padding: 120px 0 120px;
 }
+.container-benefits{.visually-hidden}
 
 .containt{
     width: 1158px;
@@ -456,7 +461,7 @@ margin-bottom: 8px;
 
 
 /*.menu{ }*/
-.menu-item-new{margin-bottom: 48px;
+.menu-item-new{
     margin-bottom: 0;
     width: calc((100% - 48px) / 3);
     padding: 32px 16px;
@@ -498,7 +503,7 @@ margin-bottom: 8px;
 
 .basement{
     background-color: #2e2f42;
-    padding: 0 0;
+    padding: 100px 0 0 156px;
 
 }
 .link-basement{
@@ -558,9 +563,9 @@ height: 21px;
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
-height: 312px;
+height: 156px;
 flex-shrink: 0;
-padding:100px 0 0 156px;
+
 
 }
 
