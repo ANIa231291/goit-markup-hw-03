@@ -118,7 +118,7 @@ padding: 0 15px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-right: 76px;
-    gap: 40px;
+ 
 }
 .logo{
     color: var(--IRIS, #4D5AE5);
@@ -135,6 +135,7 @@ padding: 0 15px;
     .menu{
     display: flex;
     column-gap: 40px;
+    gap: 40px;
  
     
 }
@@ -287,18 +288,8 @@ padding: 0 15px;
     letter-spacing: 1.12px;
     padding: 120px 0 120px;
 }
-.container-benefits{.visually-hidden}
+.container-benefits{}
 
-.containt{
-    width: 1158px;
-padding-left: 15px;
-padding-right: 15px;/*333333333333333333333333333333*/
-padding-top: 120px;
-padding-bottom: 120px;
-margin-left: auto;
-margin-right: auto;
-
-}
 
 .menu-wrap{
     flex-wrap: nowrap;
@@ -316,6 +307,7 @@ margin-right: auto;
  
     width: 264px;
     flex-direction: column;
+    width: calc((100% - 72px) / 4);
    
 
 }
@@ -504,6 +496,7 @@ margin-bottom: 8px;
 .basement{
     background-color: #2e2f42;
     padding: 100px 0 0 156px;
+    padding: 100px 0;
 
 }
 .link-basement{
