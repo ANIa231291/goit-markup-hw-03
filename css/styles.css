@@ -44,7 +44,7 @@ img{
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-
+    border-top: none; 
 }
 
 /*================= COMON STYLYS =============================*/
@@ -78,6 +78,9 @@ padding: 0 15px;
 /*.container-heder-main{
     display: flex; 
 }*/
+.menu-gap{
+    gap: 40px;
+}
 
 
 /*navigation + header*/
@@ -86,8 +89,8 @@ padding: 0 15px;
     display:flex;
     align-items: center;
     margin-right: 76px;
-    gap: 40px;
-    margin-right: 76px;
+   
+    margin-left: auto;
 
 }
 .main-navi-link{
@@ -135,8 +138,6 @@ padding: 0 15px;
     .menu{
     display: flex;
     column-gap: 40px;
-    gap: 40px;
-    gap: 24px;
     
 }
 
@@ -294,9 +295,13 @@ padding: 0 15px;
 .menu-wrap{
     column-gap: 24px;
     align-items:flex-start;
-    gap: 24px;
+========================================
     flex-wrap: wrap;
     row-gap: 48px;
+
+}
+
+.menu-gap-next{
 
 }
 
@@ -491,10 +496,11 @@ margin-bottom: 8px;
 
 .basement{
     background-color: #2e2f42;
-    padding: 100px 0 0 156px;
-    padding: 100px 0;
-
+    padding: 100px 0 156px 0;
+ 
 }
+
+
 .link-basement{
 
     color: var(--IRIS, #4D5AE5);
@@ -526,9 +532,8 @@ margin-bottom: 16px;
    
 width: 71px;
 height: 21px;
-
-
 }
+
 .logo-main-studio{
     flex-shrink: 0;
     display: inline-block;
@@ -549,13 +554,9 @@ height: 21px;
 
 
 .container-endee{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1440px;
-height: 156px;
-flex-shrink: 0;
 
-
+    height: 156px;
+    flex-shrink: 0;
 }
 
 
