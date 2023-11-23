@@ -295,13 +295,13 @@ padding: 0 15px;
 .menu-wrap{
     column-gap: 24px;
     align-items:flex-start;
-========================================
     flex-wrap: wrap;
     row-gap: 48px;
 
 }
 
 .menu-gap-next{
+    gap: 24px;
 
 }
 
@@ -456,6 +456,7 @@ margin-bottom: 8px;
     letter-spacing: 0.72px;
     text-transform: capitalize;  
     margin-bottom: 72px;
+    flex-wrap: wrap;
     }
 
 /*.menu{ }*/
@@ -480,13 +481,12 @@ margin-bottom: 8px;
 .name-portfolio-foto{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none; 
+    flex-wrap: wrap; 
 }
 .container-four{
     padding-bottom: 120px;
-    border-top: none; 
-    
 }
-.container{ border-top: none;}
 /*.paragraph{} */
 
 /*======================== SECTION 4 ====================================*/
@@ -496,7 +496,7 @@ margin-bottom: 8px;
 
 .basement{
     background-color: #2e2f42;
-    padding: 100px 0 156px 0;
+    padding: 100px 0;
  
 }
 
